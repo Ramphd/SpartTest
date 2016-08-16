@@ -19,7 +19,7 @@ public class HadoopTest1 {
     public void init() throws IOException {
         Configuration conf = new Configuration(); //加载配置文件
         conf.set("dfs.replication", "1");
-        conf.set("fs.defaultFS", "hftp://211.87.227.209:9000");
+        conf.set("fs.defaultFS", "hdfs://211.87.227.209:9000");
         /**
          * 通过FileSystem的get()或newInstance()方法获取文件系统的实例
          */
