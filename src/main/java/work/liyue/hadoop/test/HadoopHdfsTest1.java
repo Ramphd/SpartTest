@@ -11,7 +11,7 @@ import java.io.*;
 /**
  * Created by hzliyue1 on 2016/8/16,19:30.
  */
-public class HadoopTest1 {
+public class HadoopHdfsTest1 {
 
     private FileSystem fileSystem;
 
